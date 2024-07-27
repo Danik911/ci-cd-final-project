@@ -42,7 +42,7 @@ spec:
   description: This task will run nosetests with predefined parameters.
   workspaces:
     - name: source
-  parms:
+  params:
     - name: args
       description: Arguments to pass to nose
       type: string
